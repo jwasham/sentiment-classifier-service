@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET', 'POST'])
 def index():
 
-    body = "It works."
+    body = "It works"
 
     return body
 

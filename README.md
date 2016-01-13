@@ -14,7 +14,7 @@ Environments:
 Usage:
 
     cd docker
-    docker build -t sentiment_service .
+    docker build -t sentiment_service:1.0 .
     
     docker run -d -P --name sentiment_service -e ENV=development -v /path/on/host:/application sentiment_service
     [OR]
