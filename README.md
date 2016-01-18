@@ -18,7 +18,7 @@ Usage:
     
     docker run -d -P --name sentiment_service -e ENV=development -v /path/on/host:/application sentiment_service
     [OR]
-    docker run -d -P --name sentiment_service -e ENV=production sentiment_service
+    docker run -d -P --name sentiment_service -e ENV=production sentiment_service 
 
 ---
 
